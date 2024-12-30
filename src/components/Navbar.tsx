@@ -1,5 +1,5 @@
-import  { useState } from 'react';
-import { Menu, X, CircuitBoard } from 'lucide-react';
+import React, { useState } from 'react';
+import { CircuitBoardIcon, MenuIcon, XMarkIcon } from './icons';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <div className="flex items-center gap-2">
-                <CircuitBoard className="h-8 w-8 text-teal-600" />
+                <CircuitBoardIcon className="h-8 w-8 text-teal-600" />
                 <span className="text-2xl font-bold text-gray-900">AVENQ</span>
               </div>
             </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-teal-600"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? <XMarkIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
             </button>
           </div>
         </div>

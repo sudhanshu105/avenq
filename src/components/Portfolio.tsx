@@ -1,24 +1,24 @@
-// import React from 'react';
+import React from 'react';
 
 const projects = [
   {
-    title: 'Product Website',
-    description: 'A full-featured online shopping platform ',
+    title: 'E-commerce Platform',
+    description: 'A full-featured online shopping platform with real-time inventory management.',
     image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800&h=600',
     category: 'Web Development',
   },
   {
-    title: 'Social Media App',
-    description: 'Mobile application for Content posting and community engagement.',
+    title: 'Healthcare App',
+    description: 'Mobile application for patient management and telemedicine services.',
     image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800&h=600',
     category: 'Mobile Development',
   },
-  // {
-  //   title: 'Financial Dashboard',
-  //   description: 'Real-time analytics dashboard for financial data visualization.',
-  //   image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=600',
-  //   category: 'UI/UX Design',
-  // },
+  {
+    title: 'Financial Dashboard',
+    description: 'Real-time analytics dashboard for financial data visualization.',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=600',
+    category: 'UI/UX Design',
+  },
 ];
 
 const Portfolio = () => {

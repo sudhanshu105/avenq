@@ -1,5 +1,5 @@
 import React from 'react';
-import { CircuitBoard } from 'lucide-react';
+import { CircuitBoardIcon } from './icons';
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2">
-              <CircuitBoard className="h-8 w-8 text-teal-500" />
+              <CircuitBoardIcon className="h-8 w-8 text-teal-500" />
               <span className="text-2xl font-bold text-white">AVENQ</span>
             </div>
             <p className="mt-4 text-gray-400">

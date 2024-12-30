@@ -1,5 +1,5 @@
-// import React from 'react';
-import { Check } from 'lucide-react';
+import React from 'react';
+import { CheckIcon } from './icons';
 
 const plans = [
   {
@@ -81,7 +81,7 @@ const Pricing = () => {
                   {plan.features.map((feature) => (
                     <li key={feature} className="flex items-start">
                       <div className="flex-shrink-0">
-                        <Check className="h-5 w-5 text-teal-500" />
+                        <CheckIcon className="h-5 w-5 text-teal-500" />
                       </div>
                       <p className="ml-3 text-sm text-gray-700">{feature}</p>
                     </li>

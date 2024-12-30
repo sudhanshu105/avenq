@@ -1,36 +1,43 @@
 import React from 'react';
-import { Code, Palette, Globe, Smartphone, Database, Gauge } from 'lucide-react';
+import { 
+  CodeIcon, 
+  PaletteIcon, 
+  SmartphoneIcon, 
+  GlobeIcon, 
+  DatabaseIcon, 
+  TerminalIcon 
+} from './icons';
 
 const services = [
   {
     title: 'Web Development',
     description: 'Custom websites and web applications built with modern technologies.',
-    icon: Code,
+    icon: CodeIcon,
   },
   {
     title: 'UI/UX Design',
     description: 'Beautiful, intuitive interfaces that enhance user experience.',
-    icon: Palette,
+    icon: PaletteIcon,
   },
   {
     title: 'Mobile Development',
     description: 'Native and cross-platform mobile applications.',
-    icon: Smartphone,
+    icon: SmartphoneIcon,
   },
   {
     title: 'Web Hosting',
     description: 'Reliable and secure hosting solutions for your applications.',
-    icon: Globe,
+    icon: GlobeIcon,
   },
   {
     title: 'Database Design',
     description: 'Efficient and scalable database architectures.',
-    icon: Database,
+    icon: DatabaseIcon,
   },
   {
     title: 'Performance Optimization',
     description: 'Speed up your applications for better user experience.',
-    icon: Gauge,
+    icon: TerminalIcon,
   },
 ];
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { MailIcon, PhoneIcon, MapPinIcon } from './icons';
 import ContactForm from './ContactForm';
 
 const Contact = () => {
@@ -22,7 +22,7 @@ const Contact = () => {
 
           <div className="space-y-8">
             <div className="flex items-start">
-              <Mail className="h-6 w-6 text-teal-600 mt-1" />
+              <MailIcon className="h-6 w-6 text-teal-600 mt-1" />
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Email</h3>
                 <p className="mt-1 text-gray-500">contact@avenq.com</p>
@@ -30,7 +30,7 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start">
-              <Phone className="h-6 w-6 text-teal-600 mt-1" />
+              <PhoneIcon className="h-6 w-6 text-teal-600 mt-1" />
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Phone</h3>
                 <p className="mt-1 text-gray-500">+1 (555) 123-4567</p>
@@ -38,11 +38,11 @@ const Contact = () => {
             </div>
 
             <div className="flex items-start">
-              <MapPin className="h-6 w-6 text-teal-600 mt-1" />
+              <MapPinIcon className="h-6 w-6 text-teal-600 mt-1" />
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Location</h3>
                 <p className="mt-1 text-gray-500">
-                  Sector 123<br />
+                  123 Tech Street<br />
                   San Francisco, CA 94105
                 </p>
               </div>
